@@ -5,6 +5,7 @@ export default function TrafficLight() {
   const [walk, setWalk] = useState(true);
 
   function handleClick() {
+    alert((walk? "Parar es lo siguiente":"Caminar es lo siguiente"));
     setWalk(!walk);
   }
 
